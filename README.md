@@ -28,22 +28,25 @@ Install using composer.
 composer require emau18/weather
 ```
 
-Copy the needed configuration and setup the remserver as a route handler for the route `remserver`.
+## Configuration files for weather
 
 ```
 rsync -av vendor/emau18/weather/config ./
 ```
 
-The remserver is now active on the route `remserver/` according to the API documentation. You may try it out on the route `remserver/users` to get the default dataset `users`.
-
-Optionally you may copy the API documentation.
+## Views, Controller and Models
 
 ```
-rsync -av vendor/anax/remserver/content/index.md content/remserver-api.md
+rsync -av vendor/emau18/weather/src/IpController /src
+
 ```
 
-The API documentation is now available through the route `remserver-api`.
+```
+rsync -av vendor/emau18/weather/src/Models /src
 
+```
+
+## Router
 
 
 Install using scaffold postprocessing file
