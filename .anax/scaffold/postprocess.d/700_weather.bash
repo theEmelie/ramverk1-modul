@@ -8,3 +8,6 @@ rsync -av vendor/emau18/weather/src/IpController /src
 
 # Copy the model files
 rsync -av vendor/emau18/weather/src/Models /src
+
+# Copy the view files
+rsync -av vendor/emau18/weather/view/weather /view

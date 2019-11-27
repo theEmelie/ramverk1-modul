@@ -49,6 +49,10 @@ rsync -av vendor/emau18/weather/src/IpController /src
 rsync -av vendor/emau18/weather/src/Models /src
 ```
 
+```
+rsync -av vendor/emau18/weather/view/weather /view
+```
+
 
 
 Install and setup Anax
