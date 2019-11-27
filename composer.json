@@ -1,16 +1,42 @@
 {
-    "name" : "anax/noname",
-    "description": "A me page for the ramverk1 course.",
+    "name": "emau18/weather",
+    "type": "library",
+    "description": "Anax weather module.",
+    "keywords": ["boilerplate", "framework", "mvc", "micro", "education"],
+    "homepage": "https://dbwebb.se/anax",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Emelie Åslund",
+            "email": "emelie-aslund@hotmail.com",
+            "homepage": "https://dbwebb.se",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/theemelie/ramverk1-modul/issues"
+    },
+    "autoload": {
+        "psr-4": {
+            "Anax\\": "src/"
+        }
+    },
     "minimum-stability": "beta",
     "prefer-stable": true,
-    "autoload": {
-        "psr-4": {"Anax\\": "src/"}
-    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/theemelie/ramverk1-modul"
+        }
+    ],
     "require": {
-        "anax/anax-ramverk1-me": "^1.0.0"
+        "anax/anax-ramverk1-me": "^1.0.0",
+        "anax/anax-cli": "^1.1"
     },
+
     "require-dev": {
-        "phpunit/phpunit": "^7"
+        "phpmetrics/phpmetrics": "^2",
+        "phpunit/phpunit": "^7",
+        "anax/anax-lite": "^1.0.24"
     }
 }
