@@ -18,19 +18,14 @@
     },
     "autoload": {
         "psr-4": {
-            "Anax\\": "src/"
+            "Anax\\": "src/",
+            "Emau18\\": "src/"
         }
     },
     "minimum-stability": "beta",
     "prefer-stable": true,
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/theemelie/ramverk1-modul"
-        }
-    ],
     "require": {
-        "anax/anax-ramverk1-me": "^1.0.0",
+        "php": ">=7.2",
         "anax/anax-cli": "^1.1"
     },
 
