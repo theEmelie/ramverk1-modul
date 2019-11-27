@@ -3,11 +3,8 @@
 # Copy the configuration files
 rsync -av vendor/emau18/weather/config ./
 
-# Copy the controller files
-rsync -av vendor/emau18/weather/src/IpController /src
-
-# Copy the model files
-rsync -av vendor/emau18/weather/src/Models /src
+# Copy the controller and model files
+rsync -av vendor/emau18/weather/src ./
 
 # Copy the view files
-rsync -av vendor/emau18/weather/view/weather /view
+rsync -av vendor/emau18/weather/view ./

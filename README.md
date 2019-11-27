@@ -63,8 +63,8 @@ You need a Anax installation, before you can use this module. You can create a s
 Scaffold a sample Anax installation `anax-site-develop` into the directory `rem`.
 
 ```
-$ anax create rem anax-site-develop
-$ cd rem
+$ anax create site ramverk1-me-v2
+$ cd site
 ```
 
 Point your webserver to `rem/htdocs` and Anax should display a Home-page.
