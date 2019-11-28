@@ -18,8 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Anax\\": "src/",
-            "Emau18\\": "src/"
+            "Anax\\": "src/"
         }
     },
     "minimum-stability": "beta",
@@ -28,6 +27,7 @@
         "php": ">=7.2",
         "anax/anax-cli": "^1.1",
         "anax/commons": "^2.0.0@beta"
+        "anax/anax-ramverk1-me": "^1.0.0",
     },
 
     "require-dev": {
