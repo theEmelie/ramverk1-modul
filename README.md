@@ -1,4 +1,9 @@
 [![Build Status](https://travis-ci.org/theEmelie/ramverk1-modul.svg?branch=master)](https://travis-ci.org/theEmelie/ramverk1-modul)  
+
+[![CircleCI](https://circleci.com/gh/theEmelie/ramverk1-modul.svg?style=svg)](https://circleci.com/gh/theEmelie/ramverk1-modul)  
+
+[![Maintainability](https://api.codeclimate.com/v1/badges/caf03940c2a44f61a6d0/maintainability)](https://codeclimate.com/github/theEmelie/ramverk1-modul/maintainability)  
+
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/theEmelie/ramverk1-modul/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/theEmelie/ramverk1-modul/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/theEmelie/ramverk1-modul/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/theEmelie/ramverk1-modul/?branch=master)
 [![Build Status](https://scrutinizer-ci.com/g/theEmelie/ramverk1-modul/badges/build.png?b=master)](https://scrutinizer-ci.com/g/theEmelie/ramverk1-modul/build-status/master)
