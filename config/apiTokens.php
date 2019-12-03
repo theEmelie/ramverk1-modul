@@ -10,5 +10,5 @@ namespace Anax\Config;
 */
 return [
     "ipstack" => 'a5be17bdd41b97453018da83e4708650',
-    "darksky" => 'a59cdc3cf5b3a881f9f2d71e5132d310',
+    "darksky" => 'd64f9e8764e614f8e8b2f72bfe680af0',
     ];
