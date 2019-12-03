@@ -185,4 +185,11 @@ class WeatherJsonControllerTest extends TestCase
         $exp = '{"weatherJson":"","dataExists":false,"status":"Ok\u00e4nd plats"}';
         $this->assertContains($exp, $json);
     }
+
+    public function testCatchAll()
+    {
+        $res = $this->controller->catchAll();
+        $exp = "404 Not Found";
+        $this->assertContains($exp, $res);
+    }
 }

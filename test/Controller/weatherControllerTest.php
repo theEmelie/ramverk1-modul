@@ -138,4 +138,11 @@ class WeatherControllerTest extends TestCase
         $exp = "Okänd plats";
         $this->assertContains($exp, $body);
     }
+
+    public function testCatchAll()
+    {
+        $res = $this->controller->catchAll();
+        $exp = "404 Not Found";
+        $this->assertContains($exp, $res);
+    }
 }
