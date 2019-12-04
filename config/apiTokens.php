@@ -9,6 +9,6 @@ namespace Anax\Config;
 *  - darksky
 */
 return [
-    "ipstack" => 'bb9502c7432fe52c3d72a1316f955437',
-    "darksky" => 'd64f9e8764e614f8e8b2f72bfe680af0',
+    "ipstack" => 'a5be17bdd41b97453018da83e4708650',
+    "darksky" => 'bb9502c7432fe52c3d72a1316f955437',
     ];
