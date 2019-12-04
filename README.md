@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/theEmelie/ramverk1-modul.svg?branch=master)](https://travis-ci.org/theEmelie/ramverk1-modul)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 
 [![CircleCI](https://circleci.com/gh/theEmelie/ramverk1-modul.svg?style=svg)](https://circleci.com/gh/theEmelie/ramverk1-modul)
 [![Maintainability](https://api.codeclimate.com/v1/badges/caf03940c2a44f61a6d0/maintainability)](https://codeclimate.com/github/theEmelie/ramverk1-modul/maintainability)  
