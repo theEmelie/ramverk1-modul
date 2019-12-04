@@ -78,3 +78,9 @@ v2.0.0 (2019-12-04)
 ---------------------------------
 
 * Added badges for Scrutinizer, CircleCI, Travis and CodeClimate
+
+
+v2.0.1 (2019-12-04)
+---------------------------------
+
+* Finished kmom05
