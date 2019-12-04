@@ -68,7 +68,13 @@ v1.0.9 (2019-11-28)
 * Edit Composer
 
 
-v1.0.9 (2019-11-28)
+v1.1.0 (2019-11-28)
 ---------------------------------
 
 * Finished with Module
+
+
+v2.0.0 (2019-12-04)
+---------------------------------
+
+* Added badges for Scrutinizer, CircleCI, Travis and CodeClimate
